@@ -3,7 +3,7 @@ import Card from "../UI/Card";
 import styles from "./AvailableMeals.module.css";
 import MealItem from "./MealItem/MealItem";
 
-const apiUrl = process.env.REACT_APP_API_URL;
+const apiUrl = process.env.REACT_APP_API_URL + '/meals.json';
 
 const AvailableMeals = () => {
   const [meals, setMeals] = useState([]);
